@@ -1,0 +1,9 @@
+node_modules/
+web/dist/
+ai/.venv/
+ai/models/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+.vite/

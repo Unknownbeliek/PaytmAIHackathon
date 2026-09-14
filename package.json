@@ -1,0 +1,12 @@
+{
+  "name": "setu-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Setu AI — Offline-first merchant sync & micro-liquidation engine for the Paytm Build for India AI Hackathon (Track 1: Merchant Growth AI)",
+  "type": "module",
+  "scripts": {
+    "setup": "npm --prefix server install && npm --prefix web install",
+    "build": "npm --prefix web run build",
+    "start": "node scripts/serve.js"
+  }
+}
